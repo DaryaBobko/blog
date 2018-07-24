@@ -25,7 +25,6 @@ class PostDetails extends Component {
         <h1 className="PostDetails-title">{this.state.post.title}</h1>
         <p className="PostDetails-text"> {this.state.post.text}</p>
         <p className="PostDetails-author">{this.state.post.author}</p>
-
         <button onClick={this.deletePost}>Delete</button>
       </div>
     );
