@@ -1,0 +1,30 @@
+.PostDetails-container {
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.PostDetails-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 1;
+  color: #0c1148;
+  margin-bottom: 8px;
+}
+
+.PostDetails-text {
+  font-size: 13px;
+  line-height: 1.23;
+  color: rgba(11, 16, 71, 0.5);
+  margin-bottom: 20px;
+}
+
+.PostDetails-author {
+  font-size: 13px;
+  line-height: 1;
+  color: #0c1148;
+}
+

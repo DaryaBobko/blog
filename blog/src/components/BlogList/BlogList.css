@@ -1,0 +1,42 @@
+
+.BlogList-container {
+  width: 720px;
+  margin: 0 auto;
+}
+
+.BlogList-generalTitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #0b1047;
+
+}
+
+.BlogList-wrapper {
+  min-height: 70px;
+  border-bottom: 1px solid #dadada;
+  margin: 0 -20px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.BlogList-wrapper:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: rgba(242,244,247,.5);
+}
+
+.BlogList-title {
+  font-size: 16px;
+  line-height: 1;
+  color: #0c1148;
+  margin-bottom: 8px;
+}
+
+.BlogList-author {
+  font-size: 13px;
+  line-height: 1.23;
+  color: rgba(11, 16, 71, 0.5);
+}
