@@ -1,13 +1,15 @@
 
 .BlogList-container {
   width: 720px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .BlogList-generalTitle {
-  font-size: 20px;
+  font-size: 24px;
   text-transform: uppercase;
-  color: #0b1047;
+  color: #0a1244;
+  font-weight: 600;
+  margin-bottom: 30px;
 
 }
 
@@ -17,14 +19,13 @@
   margin: 0 -20px;
   padding: 0 20px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .BlogList-wrapper:hover {
   cursor: pointer;
-  border-radius: 4px;
   background-color: rgba(242,244,247,.5);
 }
 
@@ -39,4 +40,13 @@
   font-size: 13px;
   line-height: 1.23;
   color: rgba(11, 16, 71, 0.5);
+}
+
+.BlogList-date {
+  font-size: 13px;
+  color: rgba(11, 16, 71, 0.5);
+}
+
+.BlogList-button {
+  margin-top: 40px;
 }

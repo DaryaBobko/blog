@@ -1,0 +1,7 @@
+.Form-form {
+  margin-top: 50px;
+}
+
+.Form-form > input, .Form-form > textarea {
+  margin-bottom: 15px;
+}

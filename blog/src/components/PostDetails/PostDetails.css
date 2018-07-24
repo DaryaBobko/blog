@@ -1,22 +1,26 @@
-.PostDetails-container {
+.PostDetails-main {
   width: 500px;
   margin: 50px auto;
+}
+
+.PostDetails-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .PostDetails-title {
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1;
   color: #0c1148;
   margin-bottom: 8px;
 }
 
 .PostDetails-text {
-  font-size: 13px;
+  margin-top: 10px;
+  font-size: 14px;
   line-height: 1.23;
   color: rgba(11, 16, 71, 0.5);
   margin-bottom: 20px;
@@ -34,3 +38,12 @@
   justify-content: space-between;
   width: 100%;
 }
+
+.PostDetails-wrapper-button {
+  margin-top: 20px;
+}
+
+.PostDetails-wrapper-button > a:first-child {
+  margin-right: 10px;
+}
+
