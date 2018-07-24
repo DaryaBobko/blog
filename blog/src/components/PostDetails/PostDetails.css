@@ -28,3 +28,9 @@
   color: #0c1148;
 }
 
+.PostDetails-flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
